@@ -1,12 +1,8 @@
 onboarding = false
 [keys]
 prefix = "backtick"
-
-[[keys.command]]
-key = "prefix+backtick"
-type = "shell"
-command = '"$HERDR_BIN_PATH" pane send-keys "$HERDR_ACTIVE_PANE_ID" backtick'
-description = "send literal backtick"
+split_vertical = ["prefix+v", "prefix+%"]         # side-by-side (tmux %)
+split_horizontal = ["prefix+minus", "prefix+\""]  # stacked (tmux ")
 
 [theme]
 name = "catppuccin"
