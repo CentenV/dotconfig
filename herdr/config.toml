@@ -1,0 +1,13 @@
+onboarding = false
+[keys]
+prefix = "backtick"
+
+[[keys.command]]
+key = "prefix+backtick"
+type = "shell"
+command = '"$HERDR_BIN_PATH" pane send-keys "$HERDR_ACTIVE_PANE_ID" backtick'
+description = "send literal backtick"
+
+[theme]
+name = "catppuccin"
+auto_switch = false
