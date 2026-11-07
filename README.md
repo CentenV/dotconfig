@@ -1,5 +1,6 @@
 # dotconfig
 
+
 ## zsh
 
 ### Installation
@@ -19,7 +20,6 @@ This *zsh* setup is dependent on *oh-my-zsh* which can be installed with:
 ```shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
-
 #### fastfetch
 The `fastfetch` command is used to display the system information at the start of every zsh session. See `fastfetch` [Installation Instructions](https://github.com/fastfetch-cli/fastfetch?tab=readme-ov-file#installation)
 
@@ -36,3 +36,8 @@ zsh-autocompletion: Fish-like autocomplete menu (currently disabled since it can
 git clone --depth 1 https://github.com/marlonrichert/zsh-autocomplete.git $HOME/.zsh/zsh-autocompletion
 ```
 
+
+### tmux
+```shell
+git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
+```
